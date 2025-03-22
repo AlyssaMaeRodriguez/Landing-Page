@@ -1,12 +1,39 @@
 body {
   font-family: sans-serif;
   text-align: center;
+  color: #333333; 
   margin: 0;
   padding: 0;
 }
 
+html, body {
+  height: 100%; 
+  margin: 0;
+}
+
+body {
+  display: flex; 
+  flex-direction: column;
+}
+
+main {
+  flex: 1; 
+  background-color: #FFFFFF; 
+}
+
+footer {
+  background-color: #333333; 
+  color: white; 
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: #003366; 
+}
+
 header {
-  background-color: black;
+  background-color: #003366; 
   padding: 20px;
   text-align: center;
 }
@@ -25,7 +52,68 @@ nav li {
 
 nav a {
   text-decoration: none;
-  color: white
+  color: white; 
+}
+
+section {
+  padding: 20px;
+}
+
+.image-container {
+  text-align: center;
+}
+
+.image-container img {
+  display: block; 
+  margin: 0 auto; 
+}
+
+#contact {
+  text-align: left; 
+  max-width: 400px; 
+  margin: 0 auto; 
+}
+
+#contact ul {
+  list-style-type: none; 
+  padding: 0; 
+}
+
+#contact li {
+  margin: 10px 0; 
+}
+
+#contact a {
+  text-decoration: none; 
+  color: #008080; 
+}
+
+#contact a:hover {
+  text-decoration: underline; 
+}
+
+#pages {
+  text-align: left;
+  max-width: 400px; 
+  margin: 0 auto;
+}
+
+#pages ul {
+  list-style-type: none; 
+  padding: 0; 
+}
+
+#pages li {
+  margin: 10px 0; 
+}
+
+#pages a {
+  text-decoration: none; 
+  color: #008080;
+}
+
+#pages a:hover {
+  text-decoration: underline; 
 }
 
 #login-form {
@@ -52,30 +140,10 @@ nav a {
 
 #login-form button {
   padding: 8px 15px;
-  background-color: #4CAF50;
-  color: white;
+  background-color: green;
+  color: white; 
   border: none;
   cursor: pointer;
   width: 100%;
-  box-sizing: border-box;
-}
-
-section {
-  padding: 20px;
-}
-
-footer {
-  color: black;
-  padding: 20px;
-  text-align: center;
-  margin-top: 20px;
-}
-
-.image-container {
-text-align: center;
-}
-
-.image-container img {
-display: block; 
-margin: 0 auto; 
+  box-sizing: border-box; 
 }
